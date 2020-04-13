@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="viralfinderr.views.LoginPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="MediumPurple">
+
+            <AbsoluteLayout VerticalOptions="FillAndExpand"
+                            HorizontalOptions="FillAndExpand">
+
+
+                <Label Text="VIRAL FINDER"
+                       TextColor="AntiqueWhite"
+                       AbsoluteLayout.LayoutBounds="0.5,0.2"
+                       AbsoluteLayout.LayoutFlags="PositionProportional"
+                       FontSize="30"
+                       />
+
+                <Entry x:Name="emailForm"
+                       AbsoluteLayout.LayoutBounds="0.5,0.4"
+                       AbsoluteLayout.LayoutFlags="PositionProportional"
+                       WidthRequest="180"
+                       Placeholder="email"
+
+                       />
+                <Entry x:Name="passForm"
+                       AbsoluteLayout.LayoutBounds="0.5,0.5"
+                       AbsoluteLayout.LayoutFlags="PositionProportional"
+                       WidthRequest="180"
+                       Placeholder="password"
+                       IsPassword="True"
+
+                       />
+                <Button x:Name="loginButton"
+                        AbsoluteLayout.LayoutBounds="0.5,0.7"
+                        AbsoluteLayout.LayoutFlags="PositionProportional"
+                        BackgroundColor="AntiqueWhite"
+                        Text="LOGIN"
+                        WidthRequest="100"
+                        Clicked="loginButton_Clicked"
+                        />
+                <Button x:Name="registerButton"
+                        AbsoluteLayout.LayoutBounds="0.5,0.85"
+                        AbsoluteLayout.LayoutFlags="PositionProportional"
+                        BackgroundColor="AntiqueWhite"
+                        Text="REGISTER"
+                        WidthRequest="100"
+                        Clicked="registerButton_Clicked"
+                        />
+
+            </AbsoluteLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

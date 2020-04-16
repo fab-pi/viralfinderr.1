@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>118296487925-se2bj2kn9p12it27v1s0os6u4alcsang.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.118296487925-se2bj2kn9p12it27v1s0os6u4alcsang</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA9QYH6yrItigIjbQS7Q3u-n7OuYPN6UZA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>118296487925</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.companyname.viralfinderr</string>
+	<key>PROJECT_ID</key>
+	<string>viralfinder-6d753</string>
+	<key>STORAGE_BUCKET</key>
+	<string>viralfinder-6d753.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:118296487925:ios:a44a5a0a1552ad3e4b62bc</string>
+	<key>DATABASE_URL</key>
+	<string>https://viralfinder-6d753.firebaseio.com</string>
+</dict>
+</plist>

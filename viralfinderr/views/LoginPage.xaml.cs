@@ -23,15 +23,15 @@ namespace viralfinderr.views
             try
             {
 
-                if (credential.checkUserInfo() && loginButton.IsPressed)
-                {
+                //if (credential.checkUserInfo() && loginButton.IsPressed)
+                //{
                     var log = DependencyService.Get<FireAuth>();
                     String token = await log.LoginWithEmailPassword(email, pwd);
                     await DisplayAlert("LOGGED", token, "ok");
 
-                }
-                else
-                    await DisplayAlert("LOGIN ERROR", "check forms", "OK");
+                //}
+                //else
+                  //  await DisplayAlert("LOGIN ERROR", "check forms", "OK");
 
 
 
@@ -79,5 +79,6 @@ namespace viralfinderr.views
 
 
         }
+
     }
 }
